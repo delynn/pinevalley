@@ -66,6 +66,11 @@ fields:
   name: show_news
   label: Show News?
   description: Enables a news section with a twitter feed & latest posts
+- name: show_logos
+  type: boolean
+  label: Show Logos?
+  default: true
+  description: Should the page show logos?
 - type: image_gallery
   name: partners
   label: Partner Logos
